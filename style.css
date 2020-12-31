@@ -10,6 +10,8 @@ html{
     font-family: Spartan, sans-serif;
 }
 
+
+/*
 @media (min-width: 992px){
     body{
     background-image: url(images/bg-pattern-top-desktop.svg), url(images/bg-pattern-bottom-desktop.svg);
@@ -19,50 +21,102 @@ html{
     margin: 0 120px;
 }
 }
+*/
 
 
-    @media (max-width: 991px){
         body{
             background-image: url(images/bg-pattern-top-mobile.svg), url(images/bg-pattern-bottom-mobile.svg);
             background-position: left top, right bottom;
             background-repeat: no-repeat;
+            background-size: 30% 50%;
+            margin: 0 50px;
+            width: 100vw;
+            height: 100vh;
+
             
         }
     
     
-}
+
 
 h2{
     color: hsl(300, 43%, 22%);
     margin-top: 70px;
     margin-bottom: 10px;
     font-size: 1.8em;
+    text-align: center;
     
 }
 
 .header > p{
     
-    width: 35vw;
+    width: 75vw;
     font-weight: 300;
     font-size: 0.8em;
     color: hsl(303, 10%, 53%);
     line-height: 1.5;
+    text-align: center;
+    margin-bottom: 10px;
 }
 
 .ratings > div{
-    background-color: hsl(303, 10%, 53%);
+    background-color: hsl(300, 24%, 96%);
     border: 1px solid hsl(300, 24%, 96%);
     border-radius: 3px;
     width: 400px;
-    height: 35px;
-    padding: 5px;
+    height: 40px;
+    padding: 8px;
+    margin-top: 5px;
+    text-align: center;
+    margin: 10px auto;
 }
 
 .ratings > div > span {
     margin-left: 8px;
-    color: hsl(300, 43%, 22%);
+    color: hsl(333, 80%, 67%);
     font-weight: 700;
     font-size: 0.9em;
 }
 
-@media (min-width)
+.container-2{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+@media (max-width: 776px){
+    .container-2{
+        flex-wrap: wrap;
+    }
+}
+
+div.card{
+    margin-top: 5px;
+    flex-wrap: wrap;
+}
+
+
+section > .card{
+    flex-basis: 25%;
+    height: fit-content;
+    border: 1px solid hsl(300, 43%, 22%);
+    border-radius: 8px;
+    background-color: hsl(300, 43%, 22%);  
+}
+
+section > .card > img{
+    border: 1px solid hsl(300, 43%, 22%);
+    border-radius: 50px;
+}
+
+section > .card > h4{
+    color: hsl(300, 24%, 96%);
+    font-size: 0.9em;
+    font-weight: lighter;
+    
+    
+}
+
+section > .card > h4> span{
+    color: hsl(333, 80%, 67%);
+}
