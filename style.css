@@ -28,7 +28,7 @@ html{
             background-image: url(images/bg-pattern-top-mobile.svg), url(images/bg-pattern-bottom-mobile.svg);
             background-position: left top, right bottom;
             background-repeat: no-repeat;
-            background-size: 30% 50%;
+            background-size: 70% 80%;
             margin: 0 50px;
             width: 100vw;
             height: 100vh;
@@ -83,6 +83,7 @@ h2{
 
     display: flex;
     flex-wrap: wrap;
+    margin: 0px 30px;
     
 
 }
@@ -130,4 +131,8 @@ section > .card > h4{
 
 section > .card > h4> span{
     color: hsl(333, 80%, 67%);
+}
+
+div.card p{
+    color: hsl(300, 24%, 96%);
 }
