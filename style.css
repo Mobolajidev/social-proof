@@ -8,6 +8,11 @@
 html{
     font-size: 15px;
     font-family: Spartan, sans-serif;
+    background-image: url(images/bg-pattern-top-mobile.svg), url(images/bg-pattern-bottom-mobile.svg);
+
+            background-position: left top, right bottom 100px;
+            background-repeat: no-repeat, no-repeat;
+            background-size: contain, contain;
 }
 
 
@@ -25,11 +30,8 @@ html{
 
 
         body{
-            background-image: url(images/bg-pattern-top-mobile.svg), url(images/bg-pattern-bottom-mobile.svg);
-            background-position: left top, right bottom;
-            background-repeat: no-repeat;
-            background-size: 70% 80%;
-            margin: 0 50px;
+            
+            margin: 0 10px;
             width: 100vw;
             height: 100vh;
 
@@ -135,4 +137,10 @@ section > .card > h4> span{
 
 div.card p{
     color: hsl(300, 24%, 96%);
+}
+
+footer{
+    background-image:     background-position: bottom right;
+    background-repeat: no-repeat;
+    background-size: 70%;
 }
