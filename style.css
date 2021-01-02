@@ -21,7 +21,7 @@ html{
 @media (min-width: 767px){
     html{
         background-image: url(images/bg-pattern-top-desktop.svg), url(images/bg-pattern-bottom-desktop.svg);
-        background-size: 25%, 90%;
+        background-size: 40%, 90%;
         background-repeat: no-repeat, no-repeat;
         background-position: top left, bottom right;
         
@@ -69,10 +69,10 @@ h2{
      
     h2{
         color: hsl(300, 43%, 22%);
-    margin-top: 70px;
+    margin-top: 140px;
     margin-bottom: 10px;
         margin-left: 80px;
-    font-size: 1.8em;
+    font-size: 2.5em;
     text-align: start;
     
     }
@@ -129,7 +129,7 @@ ul{
 @media screen and (min-width: 767px){
     ul{
         position: absolute;
-        bottom: -55px;
+        bottom: -20px;
         left: 400px;
         list-style: none;
         margin-top: 500px;
@@ -209,10 +209,10 @@ ul li div span{
 
 div.card{
     
-    margin: 35px 5px 10px 5px;
+    margin: 105px 5px 10px 5px;
     height: 30%;
     border: 1px solid hsl(300, 43%, 22%);
-    border-radius: 5px;
+    border-radius: 8px;
     background-color: hsl(300, 43%, 22%);  
     padding: 15px;
     position: relative;
